@@ -1,0 +1,340 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "adminYovke",
+      "email": "adminyovke123@gmail.com",
+      "password": "adminYovke#123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "sampleUser123",
+      "email": "sampleuser123@gmail.com",
+      "password": "sampleUser#123",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Celestron NexStar 8SE Telescope",
+      "image": "https://m.media-amazon.com/images/I/51GCZ2lmsmL.jpg",
+      "date_added": "2023-08-25",
+      "price": 1099.99,
+      "category": "telescope",
+      "company_name": "Celestron",
+      "description": "Explore the universe with the powerful NexStar 8SE Telescope from Celestron. Perfect for both beginners and experienced astronomers."
+    },
+    {
+      "id": 2,
+      "name": "Galaxy Explorer Hoodie",
+      "image": "https://m.media-amazon.com/images/I/B1i3u9-Q-KS._AC_CLa%7C2140%2C2000%7CB1pRt8ELs4S.png%7C0%2C0%2C2140%2C2000%2B0.0%2C0.0%2C2140.0%2C2000.0_UY1000_.png",
+      "date_added": "2023-08-25",
+      "price": 39.99,
+      "category": "clothes",
+      "company_name": "StarryWear",
+      "description": "Stay warm and stylish while stargazing with the Galaxy Explorer Hoodie. Made from comfortable materials and featuring a unique space-themed design."
+    },
+    {
+      "id": 3,
+      "name": "Space Adventures Playset",
+      "image": "https://shop.sciencemuseum.org.uk/cdn/shop/products/508391-SetSpaceAdventureSpaceCapsule-1.jpg?v=1651053942",
+      "date_added": "2023-08-25",
+      "price": 29.99,
+      "category": "toy",
+      "company_name": "Cosmic Toys",
+      "description": "Ignite your child's imagination with the Space Adventures Playset. Includes miniature rockets, astronauts, and space vehicles for hours of fun."
+    },
+    {
+      "id": 4,
+      "name": "Vanguard Star-22 Tripod",
+      "image": "https://m.media-amazon.com/images/I/71buBILQnPL.jpg",
+      "date_added": "2023-08-25",
+      "price": 89.99,
+      "category": "equipment",
+      "company_name": "AstroGear",
+      "description": "Capture stunning celestial images with the stability provided by the Vanguard Star-22 Tripod. Designed for compatibility with various telescopes and cameras."
+    },
+    {
+      "id": 5,
+      "name": "Orion StarBlast 4.5 Reflector Telescope",
+      "image": "https://i5.walmartimages.com/asr/de5209c5-5774-4c38-87e6-d6d757881809_1.5767c1436b717e2e0fa18adaa05ae4e9.jpeg",
+      "date_added": "2023-08-25",
+      "price": 199.95,
+      "category": "telescope",
+      "company_name": "Orion Telescopes",
+      "description": "The Orion StarBlast 4.5 Reflector Telescope offers great views of the moon, planets, and deep-sky objects. Portable and easy to use."
+    },
+    {
+      "id": 6,
+      "name": "Cosmic Constellations Hoodie",
+      "image": "https://i.etsystatic.com/26665836/r/il/c1285a/3069345512/il_fullxfull.3069345512_4t69.jpg",
+      "date_added": "2023-08-25",
+      "price": 45.99,
+      "category": "clothes",
+      "company_name": "Galactic Apparel",
+      "description": "Wrap yourself in the beauty of the cosmos with the Cosmic Constellations Hoodie. A blend of comfort and cosmic style."
+    },
+    {
+      "id": 7,
+      "name": "Saturn Adventure Space Lego Set",
+      "image": "https://m.media-amazon.com/images/I/81Dd9Mn412L._UF1000,1000_QL80_.jpg",
+      "date_added": "2023-08-25",
+      "price": 34.95,
+      "category": "toy",
+      "company_name": "SpaceBricks",
+      "description": "Build your own Saturn V rocket and lunar module with the Saturn Adventure Space Lego Set. Perfect for space enthusiasts and Lego fans alike."
+    },
+    {
+      "id": 8,
+      "name": "AstroView EQ-500 Telescope Mount",
+      "image": "https://www.astroshop.eu/Produktbilder/zoom/56115_4/Omegon-Mount-Montierung-EQ-500-X-Drive.jpg",
+      "date_added": "2023-08-25",
+      "price": 159.99,
+      "category": "equipment",
+      "company_name": "Celestial Tools",
+      "description": "Upgrade your telescope setup with the AstroView EQ-500 Telescope Mount. Provides smooth tracking and precise control for astrophotography."
+    },
+    {
+      "id": 9,
+      "name": "Meade LX90 ACF 10\" Telescope",
+      "image": "https://www.telescopesplus.com/cdn/shop/products/MEAD511.jpeg?v=1571275884",
+      "date_added": "2023-08-25",
+      "price": 2499,
+      "category": "telescope",
+      "company_name": "Meade Instruments",
+      "description": "Experience the cosmos in stunning detail with the Meade LX90 ACF 10\" Telescope. Advanced optics and features for serious astronomers."
+    },
+    {
+      "id": 10,
+      "name": "Nebula Dreamer Hoodie",
+      "image": "https://ocs-pl.oktawave.com/v1/AUTH_630f86eaa3774cda8593b8a9710b1aa4/lte/bittersweetparis/2023/0714/20230714110159_ZM8QpYALi00zTKJW_800x880.webp",
+      "date_added": "2023-08-25",
+      "price": 52.5,
+      "category": "clothes",
+      "company_name": "Stellar Couture",
+      "description": "Embark on a journey through the stars with the Nebula Dreamer Hoodie. Soft and stylish, perfect for those who love to dream about the universe."
+    },
+    {
+      "id": 11,
+      "name": "AstroBlast Rocket Kit",
+      "image": "https://i5.walmartimages.com/seo/Estes-Flash-Model-Rocket-Launch-Set_235fb0b2-b72f-4eb1-89ee-42b2b20a6cf8.fc2286b27f844f4306c4bf6682ec0f81.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF",
+      "date_added": "2023-08-25",
+      "price": 19.99,
+      "category": "toy",
+      "company_name": "Stellar Rockets",
+      "description": "Build and launch your own rockets with the AstroBlast Rocket Kit. Great for educational and recreational rocketry."
+    },
+    {
+      "id": 12,
+      "image": "https://img.fruugo.com/product/3/64/831640643_max.jpg",
+      "name": "Lunar Crater Moon Lamp",
+      "company_name": "Cosmic Creations",
+      "category": "geeky gift",
+      "description": "Bring the beauty of the moon indoors with the Lunar Crater Moon Lamp. Realistic texture and adjustable brightness.",
+      "price": 29.95,
+      "date_added": "2023-08-25"
+    },
+    {
+      "id": 13,
+      "name": "Cosmic Explorer Virtual Reality Set",
+      "image": "https://m.media-amazon.com/images/I/71Z-GfOwiNL._AC_UF894,1000_QL80_.jpg",
+      "date_added": "2023-08-25",
+      "price": 149.99,
+      "category": "geeky gift",
+      "company_name": "Galactic VR",
+      "description": "Immerse yourself in the wonders of space with the Cosmic Explorer Virtual Reality Set. Explore planets, stars, and galaxies in stunning 3D."
+    },
+    {
+      "id": 14,
+      "name": "StellarView Planetary Eyepiece Set",
+      "image": "https://www.firstlightoptics.com/user/products/large/morpheus_ep_7.jpg",
+      "date_added": "2023-08-25",
+      "price": 89.95,
+      "category": "equipment",
+      "company_name": "Astronomy Optics",
+      "description": "Upgrade your telescope's viewing experience with the StellarView Planetary Eyepiece Set. Crystal-clear views of planets and celestial objects."
+    },
+    {
+      "id": 15,
+      "name": "Space Explorer Backpack",
+      "image": "https://m.media-amazon.com/images/I/81J5CyU-9SL._AC_UY1000_.jpg",
+      "date_added": "2023-08-25",
+      "price": 49.99,
+      "category": "accessories",
+      "company_name": "AstroGear",
+      "description": "Carry your astronomy essentials in the Space Explorer Backpack. Designed for stargazers on the go, with compartments for gear and snacks."
+    },
+    {
+      "id": 16,
+      "name": "Galactic Nebula Wall Art",
+      "image": "https://m.media-amazon.com/images/I/71iqAnfPDxL.jpg",
+      "date_added": "2023-08-25",
+      "price": 79.95,
+      "category": "geeky gift",
+      "company_name": "StarCanvas",
+      "description": "Adorn your walls with the beauty of the universe. The Galactic Nebula Wall Art adds an artistic touch to any space enthusiast's room."
+    },
+    {
+      "id": 17,
+      "name": "AstroSound Portable Telescope Speaker",
+      "image": "https://www.arspeakers.com/images/common/AWSEE320/AWSEE320_1.png",
+      "date_added": "2023-08-25",
+      "price": 39.99,
+      "category": "geeky gift",
+      "company_name": "AudioAstro",
+      "description": "Combine astronomy with music using the AstroSound Portable Telescope Speaker. Listen to celestial-inspired tunes while observing the stars."
+    },
+    {
+      "id": 18,
+      "name": "Celestial Constellation Puzzle",
+      "image": "https://www.bart-games.com/cdn/shop/products/CelestialConstellationMap_2.jpg?v=1671200454",
+      "date_added": "2023-08-25",
+      "price": 24.99,
+      "category": "toy",
+      "company_name": "StarryPuzzles",
+      "description": "Challenge your mind with the Celestial Constellation Puzzle. Assemble the stars and create stunning cosmic artwork in the process."
+    },
+    {
+      "id": 19,
+      "name": "SkyWatcher StarSeeker IV Telescope",
+      "image": "https://skyandtelescope.org/wp-content/uploads/Orion-StarSeeker-600px.jpg",
+      "date_added": "2023-08-25",
+      "price": 799,
+      "category": "telescope",
+      "company_name": "SkyWatcher",
+      "description": "Experience the wonders of the night sky with the SkyWatcher StarSeeker IV Telescope. Advanced features for astronomy enthusiasts."
+    },
+    {
+      "id": 20,
+      "name": "Orion SpaceProbe 130ST Telescope",
+      "image": "https://m.media-amazon.com/images/I/61sePgWUkmL.jpg",
+      "date_added": "2023-08-25",
+      "price": 299.95,
+      "category": "telescope",
+      "company_name": "Orion Telescopes",
+      "description": "Explore the universe with the Orion SpaceProbe 130ST Telescope. Compact and powerful, perfect for observing planets and deep-sky objects."
+    },
+    {
+      "id": 21,
+      "name": "GalaxyQuest Wireless Telescope System",
+      "image": "https://carmarthencameras.com/cdn/shop/products/s-l1600_001e4f4f-b1b2-4764-b8fa-5dfccf15a09e.jpg?v=1665048992",
+      "date_added": "2023-08-25",
+      "price": 1499.99,
+      "category": "equipment",
+      "company_name": "StellarTech",
+      "description": "Enter the future of astronomy with the GalaxyQuest Wireless Telescope System. Control and view the cosmos wirelessly using advanced technology."
+    },
+    {
+      "id": 22,
+      "name": "Celestial Voyager Dobsonian Telescope",
+      "image": "https://m.media-amazon.com/images/I/61o7-dskTdL._AC_UF894,1000_QL80_.jpg",
+      "date_added": "2023-08-25",
+      "price": 549,
+      "category": "telescope",
+      "company_name": "Celestial Optics",
+      "description": "Embark on a journey through the stars with the Celestial Voyager Dobsonian Telescope. Large aperture for stunning views of celestial objects."
+    },
+    {
+      "id": 23,
+      "name": "Starry Night Sky Map Poster",
+      "image": "https://m.media-amazon.com/images/I/81eYxlfCrEL._UF894,1000_QL80_.jpg",
+      "date_added": "2023-08-25",
+      "price": 14.99,
+      "category": "geeky gift",
+      "company_name": "AstroPrints",
+      "description": "Decorate your room with the Starry Night Sky Map Poster. Featuring constellations and stars visible on a specific date and location."
+    },
+    {
+      "id": 24,
+      "name": "AstroScribe Astronomy Journal",
+      "image": "https://m.media-amazon.com/images/I/71zndmemW8L._AC_UF894,1000_QL80_.jpg",
+      "date_added": "2023-08-25",
+      "price": 19.95,
+      "category": "reading",
+      "company_name": "Celestial Journals",
+      "description": "Document your stargazing observations in the AstroScribe Astronomy Journal. Includes space for sketches, notes, and celestial events."
+    },
+    {
+      "id": 25,
+      "name": "Meteor Shower Photography Guide",
+      "image": "https://images.squarespace-cdn.com/content/v1/5908cb0a20099e3777ba60cf/1687447593372-B1Q3X7D1ZZ3TAF0OEGF8/Transparent+Mock+Up+Square.png?format=2500w",
+      "date_added": "2023-08-28",
+      "price": 29.99,
+      "category": "reading",
+      "company_name": "StarGuides",
+      "description": "Capture stunning meteor shower photos with the Meteor Shower Photography Guide. Learn techniques, tips, and camera settings."
+    },
+    {
+      "id": 26,
+      "name": "Space Explorer Kids' Book",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/71m72vMf3aL._AC_UL600_SR600,600_.jpg",
+      "date_added": "2023-08-28",
+      "price": 9.99,
+      "category": "reading",
+      "company_name": "Cosmic Kids Books",
+      "description": "Introduce children to the wonders of space with the Space Explorer Kids' Book. Engaging stories and colorful illustrations."
+    },
+    {
+      "id": 27,
+      "name": "AstroLens Smartphone Telescope Adapter",
+      "image": "https://www.celestron.com/cdn/shop/products/81055_NexYZ_3-Axis_Universal_Smartphone_Adapter_01.jpg?v=1635196930",
+      "date_added": "2023-08-28",
+      "price": 24.95,
+      "category": "equipment",
+      "company_name": "AstroGear",
+      "description": "Capture celestial moments using your smartphone with the AstroLens Telescope Adapter. Attach your phone to your telescope and photograph the stars."
+    },
+    {
+      "id": 608,
+      "image": "https://www.lego.com/cdn/cs/set/assets/blt1ebe82f4c47dc249/31142_alt1.png",
+      "name": "Space Roller Coaster",
+      "company_name": "LEGO",
+      "category": "toy",
+      "description": "Space fans aged 9+ can enjoy an exhilarating trip to an amusement park with this highly detailed LEGO® Creator 3in1 Space Roller Coaster (31142). The playset includes a winding roller coaster track featuring 3 moving carts for fun rides, which zoom past objects in the solar system, like a decorative space rocket, models of Saturn and Earth, a moon base and a shooting star. There is also a cool meteor with a light brick that can be illuminated, plus 5 minifigures.",
+      "price": "109.99",
+      "date_added": "2023-12-29"
+    },
+    {
+      "id": 992,
+      "image": "https://i.ebayimg.com/images/g/yoMAAOSw9Q1jsv0e/s-l1600.jpg",
+      "name": "Dead Space RIG Hoodie",
+      "company_name": "EarthGov",
+      "category": "clothes",
+      "description": "Jump into the world of Dead Space with this brand new RIG hoodie! Armor plating not included.",
+      "price": "59.99",
+      "date_added": "2023-12-29"
+    },
+    {
+      "id": 260,
+      "image": "https://static.wikia.nocookie.net/versus-compendium/images/3/3f/173.png",
+      "name": "SCP-173 model figurine",
+      "company_name": "Secure Contain Protect",
+      "category": "toy",
+      "description": "This small lifelike replica of our most popular specimen 173 (also nicknamed \"Peanut\") is a perfect companion or desk accessory available now! Just be careful not to loose sight of it, or it might get a bit crunchy or even ██████!",
+      "price": "173.99",
+      "date_added": "2024-02-05"
+    },
+    {
+      "id": 117,
+      "image": "https://cdn.shopify.com/s/files/1/1796/6745/products/PlagueDoctor_Profile.jpg?v=1666814316",
+      "name": "SCP-049 \"The Plague Doctor\" plushie",
+      "company_name": "Secure Contain Protect",
+      "category": "toy",
+      "description": "Do not fear, the doctor will cure you from any disease! Now available as a small plushie that will sit right on your desk. Our firmly contained specimen 049 will guarantee your safety from any disease by granting swift embrace of █████ and comfort.",
+      "price": "49.99",
+      "date_added": "2024-02-05"
+    },
+    {
+      "id": 304,
+      "image": "https://sportklub.n1info.rs/wp-content/uploads/2023/12/08/1702024791-Aleksa-Avramovic.jpg",
+      "name": "Ahmed Kašmiri",
+      "company_name": "JovanGurbic123",
+      "category": "clothes",
+      "description": "Aleksa",
+      "price": "8.99",
+      "date_added": "2024-03-01"
+    }
+  ]
+}
